@@ -21,7 +21,7 @@
 }
 ```
 
-2. change `hostname`
+2. change `hostname` (and optionally, the `nixpkgs` url if e.g. you want to use a stable branch)
 1. run `nix flake update`
 1. rebuild your system (`nixos-rebuild boot`)
 1. congrats you now use flakes
